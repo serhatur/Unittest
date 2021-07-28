@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlanUnittest.App", "XPlanUnittest.App\XPlanUnittest.App.csproj", "{8963A9FE-2F1B-48D0-9DB1-36D1CB4E1414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlanUnittest.Test", "XPlanUnittest.Test\XPlanUnittest.Test.csproj", "{DE4F7D90-EA1F-4828-8627-5F4821A11491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8963A9FE-2F1B-48D0-9DB1-36D1CB4E1414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8963A9FE-2F1B-48D0-9DB1-36D1CB4E1414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8963A9FE-2F1B-48D0-9DB1-36D1CB4E1414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8963A9FE-2F1B-48D0-9DB1-36D1CB4E1414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4F7D90-EA1F-4828-8627-5F4821A11491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4F7D90-EA1F-4828-8627-5F4821A11491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4F7D90-EA1F-4828-8627-5F4821A11491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4F7D90-EA1F-4828-8627-5F4821A11491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56D69AD1-CB81-4CF2-95EB-095556BC878A}
+	EndGlobalSection
+EndGlobal
