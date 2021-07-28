@@ -60,5 +60,16 @@ namespace XPlanUnittest.Test
             Assert.Equal(expectedNumber, resultNumber);
         }
 
+        [Theory]
+        [InlineData(4, 8, 32)]
+        [InlineData(1, 11, 11)]
+        public void Multiplication_Values_ReturnSumValue(int a, int b, int expectedNumber)
+        {
+            myMock.Setup(x => x.Multiplication(a, b)).Returns(expectedNumber);
+
+            var resultNumber = calculator.Multiplication(a, b);
+
+            Assert.Equal(expectedNumber, resultNumber);
+        }
     }
 }

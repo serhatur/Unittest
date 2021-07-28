@@ -6,5 +6,10 @@
         {
             return a + b;
         }
+
+        public int Multiplication(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
