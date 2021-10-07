@@ -58,6 +58,8 @@ namespace XPlanUnittest.Test
             var resultNumber = calculator.Add(a, b);
 
             Assert.Equal(expectedNumber, resultNumber);
+
+            myMock.Verify(x => x.Add(a, b), Times.Once);
         }
 
         [Theory]
